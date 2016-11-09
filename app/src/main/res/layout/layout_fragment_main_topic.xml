@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/lvTopic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="8.0dp"
+        android:fastScrollEnabled="true"
+        android:focusable="true"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"></ListView>
+    <com.example.tienbi.readbook.custom.MyListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="8.0dp"
+        android:fastScrollEnabled="true"
+        android:focusable="true"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none">
+    </com.example.tienbi.readbook.custom.MyListView>
+</RelativeLayout>

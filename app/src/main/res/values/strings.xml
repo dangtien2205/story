@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReadBook</string>
+    <string name="arrowDesc">Arrow Description</string>
+    <string name="hello_world">Hello world!</string>
+</resources>
